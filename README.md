@@ -3,7 +3,7 @@
 Um site de portfólio **moderno, bonito e dinâmico**, exibindo seu status do Discord em tempo real, atividades atuais e informações profissionais.  
 Desenvolvido com **Next.js**, **TailwindCSS** e a **API Lanyard**.
 
-![Prévia](https://i.imgur.com/your-preview-image.jpg)
+![Prévia](https://imgur.com/a/h0aakUJ)
 
 ## ✨ Recursos
 
