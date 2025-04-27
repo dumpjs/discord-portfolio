@@ -42,6 +42,7 @@ export interface DiscordUser {
 }
 
 export interface Activity {
+  state: any;
   flags: number;
   id: string;
   name: string;

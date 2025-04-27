@@ -15,7 +15,7 @@ interface LinkCardProps {
 
 const LinkCard: FC<LinkCardProps> = ({ link, index }) => {
   // Dynamically get the icon from lucide-react
-  const IconComponent = (LucideIcons as Record<string, LucideIcon>)[link.icon] || LucideIcons.Link;
+  const IconComponent = (LucideIcons as unknown as Record<string, typeof LucideIcon>)[link.icon] || LucideIcons.Link;
   
   return (
     <motion.div
